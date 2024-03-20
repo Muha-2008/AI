@@ -1,1 +1,1 @@
-import os
+print ("La la")
