@@ -19,5 +19,6 @@ def search_unsplash_images(query):
     else:
         print("Error:", response.status_code, response.text)
 
-# Example
-search_unsplash_images("cats")
+if __name__ == "__main__":
+    topic = input("Enter a topic to search for images: ")
+    search_unsplash_images(topic)
